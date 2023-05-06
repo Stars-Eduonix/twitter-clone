@@ -1,6 +1,14 @@
 {
-  "type" : "module",
+  "type": "module",
   "dependencies": {
     "firebase": "^9.21.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
   }
 }
